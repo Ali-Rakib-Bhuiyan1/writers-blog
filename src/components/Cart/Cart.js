@@ -8,8 +8,8 @@ const Cart = (props) => {
 
     return (
         <div className="cart">
-            <h2>Total Users added: {props.user.length}</h2>
-            <h3>Total Salary: ${salary}</h3>
+            <h2>Total writer added: {props.user.length}</h2>
+            <h3>Total salary: ${salary}</h3>
             <div className="avatar-container">
                 {
                     props.user.map(user => <Avatar user={user}></Avatar>)
